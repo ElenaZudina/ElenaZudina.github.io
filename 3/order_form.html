@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="order_style_fix.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Marck+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+	<title>Форма заказа кондитерская Эклер</title>
+</head>
+<body>
+	<div class="wrapper">
+		<main>
+			<header>
+				<nav class="nav-links">
+					<ul class="menu_box">
+						<li class="menu_item"><a href="#">О нас</a></li>
+						<li class="menu_item"><a href="#">Пирожные</a></li>
+					</ul>
+				</nav>
+				<div class="logo">
+						<img src="images/logo/logo_medium.png" alt="Логотип Кондитерская Эклер">
+				</div>
+				<div class="header_contact">
+				<p>10:00 - 20:00</p>
+				<p>+372555555</p>
+				<p>Jõhvi Rakvere tn 13</p>
+				</div>
+			</header>
+			<h1>Форма заказа</h1>
+			<form action="#" method="POST" id="orderForm">
+				<div class="contact">
+					<label for="name" class="contact_label">Ваше имя:</label>
+            		<input type="text" name="name" class="contact_input" value="" placeholder="Ваше имя" required>
+            	</div>
+            	<div class="contact">
+            		<label for="surname" class="contact_label">Ваша фамилия:</label>
+            		<input type="text" name="surname" class="contact_input" value="" placeholder="Ваша фамилия" required>
+            	</div>
+            	<div class="contact">
+            		<label for="email" class="contact_label">Ваш E-mail:</label>
+            		<input type="email" name="email" class="contact_input" placeholder="Ваш email" required>
+            	</div>
+            	<div class="contact">
+            		<label for="phone" class="contact_label">Ваш телефон:</label>
+            		<input type="tel" name="phone" class="contact_input" placeholder="Ваш телефон" required>
+            	</div>
+            	<div class="contact_address">
+            		<label for="address" class="contact_label">Адрес доставки:</label>
+            		<input type="text" name="address" class="contact_input" placeholder="Куда доставить ваш заказ" required>
+            	</div>
+            	<!-------Заказ---->
+            	<div class="form-container">
+            		<!-------Эклер---->
+            	<div class="form-group">
+            		<div class="cake_item">
+            		<img src="images/ekler.jpg">
+            		<label for="cake1">Эклер</label>
+    				<input type="number" id="cake1" name="cake1" min="0" value="" placeholder="Выберите количество" />
+    				<label for="price1">Цена</label>
+    				<input type="number" id="price1" name="price1" value="2" readonly placeholder="" />
+    				<label for="total1">Сумма</label>
+        			<input type="number" id="total1" name="total1" value="0" readonly placeholder="" />
+    				</div>
+    			</div>
+    			<!-------Картошка---->
+    			<div class="form-group">
+    				<div class="cake_item">
+    				<img src="images/kartoshka.jpg">
+            		<label for="cake2">Картошка</label>
+    				<input type="number" id="cake2" name="cake2" min="0" value="" placeholder="Выберите количество" />
+    				<label for="price2">Цена</label>
+    				<input type="number" id="price2" name="price2" value="2" readonly placeholder="" />
+    				<label for="total2">Сумма</label>
+        			<input type="number" id="total2" name="total2" value="0" readonly placeholder="" />
+    			</div>
+    			</div>
+    			<!-------Корзиночка---->
+    			<div class="form-group">
+    				<div class="cake_item">
+    				<img src="images/korzinochka.png">
+            		<label for="cake3">Корзиночка</label>
+    				<input type="number" id="cake3" name="cake3" min="0" value="" placeholder="Выберите количество" />
+    				<label for="price3">Цена</label>
+    				<input type="number" id="price3" name="price3" value="2" readonly placeholder="" />
+    				<label for="total3">Сумма</label>
+        			<input type="number" id="total3" name="total3" value="0" readonly placeholder="" />
+    			</div>
+    			</div>
+    			<!-------Трубочка---->
+    			<div class="form-group">
+    				<div class="cake_item">
+    				<img src="images/trubochka.jpg">
+            		<label for="cake4">Трубочка</label>
+    				<input type="number" id="cake4" name="cake4" min="0" value="" placeholder="Выберите количество" />
+    				<label for="price4">Цена</label>
+    				<input type="number" id="price4" name="price4" value="2" readonly placeholder="" />
+    				<label for="total1">Сумма</label>
+        			<input type="number" id="total4" name="total4" value="0" readonly placeholder="" />
+    			</div>
+    			</div>
+    			<!-------Ромовая баба---->
+    			<div class="form-group">
+    				<div class="cake_item">
+    				<img src="images/romovaja_baba.jpg">
+            		<label for="cake5">Ромовая баба</label>
+    				<input type="number" id="cake5" name="cake5" min="0" value="" placeholder="Выберите количество" />
+    				<label for="price5">Цена</label>
+    				<input type="number" id="price5" name="price5" value="2" readonly placeholder="" />
+    				<label for="total5">Сумма</label>
+        			<input type="number" id="total5" name="total5" value="0" readonly placeholder="" />
+    			</div>
+    			</div>
+    			<!-------Прага---->
+    			<div class="form-group">
+    				<div class="cake_item">
+    				<img src="images/praga_3.jpg">
+            		<label for="cake6">Прага</label>
+    				<input type="number" id="cake6" name="cake6" min="0" value="" placeholder="Выберите количество" />
+    				<label for="price6">Цена</label>
+    				<input type="number" id="price6" name="price6" value="2" readonly placeholder="" />
+    				<label for="total6">Сумма</label>
+        			<input type="number" id="total6" name="total6" value="0" readonly placeholder="" />
+    			</div>
+    			</div>
+    			<!-------Птичье молоко---->
+    			<div class="form-group">
+    				<div class="cake_item">
+    				<img src="images/ptichje_moloko.jpg">
+            		<label for="cake7">Птичье молоко</label>
+    				<input type="number" id="cake7" name="cake7" min="0" value="" placeholder="Выберите количество" />
+    				<label for="price1">Цена</label>
+    				<input type="number" id="price7" name="price7" value="2" readonly placeholder="" />
+    				<label for="total1">Сумма</label>
+        			<input type="number" id="total7" name="total7" value="0" readonly placeholder="" />
+    			</div>
+    			</div>
+    		
+    			<div class="form-group">
+    				<div class="amount">
+    				<label for="totalamount">Всего</label>
+        			<input type="number" id="totalamount" name="totalamount" value="0" readonly placeholder="" />
+        		</div>
+    			</div>
+    		</div>
+    		<button type="submit" class="btn">Сделать заказ</button>
+			</form>
+		</main>
+		<footer>
+			<div class="nav-links">
+				<a href="#we">О нас</a>
+				<a href="#cakes">Пирожные</a>
+			</div>
+			<div class="logo"><img src="images/logo/logo_medium.png" alt="Логотип Кондитерская Эклер"></div>
+			<div class="contact">
+				<p>Jõhvi Rakvere tn 13</p>
+				<p>+372555555</p>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>

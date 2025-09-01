@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style_fluid_new.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Marck+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+	<title>LandingPage кондитерская Эклер</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="burger_menu">
+				<input id="menu_toggle" type="checkbox">
+				<label class="menu_btn" for="menu_toggle">
+					<span></span>
+				</label>
+				<ul class="menu_box">
+					<li><a class="menu_item" href="#we">О нас</a></li>
+					<li><a class="menu_item" href="#cakes">Пирожные</a></li>
+				</ul>
+			</div>
+			<!--<nav>
+				<ul>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Пирожные</a></li>
+				</ul>
+			</nav>-->
+			<div class="logo">
+				<img src="images/logo/logo_medium.png" alt="Логотип Кондитерская Эклер">
+			</div>
+			<div class="contact-info">
+				<p class="">10:00 - 20:00</p>
+				<p class="">+372555555</p>
+				<p class="">Jõhvi Rakvere tn 13</p>
+			</div>
+			<a href="#" class="btn btn-outline">Заказать</a>
+		</header>
+		<main>
+			<section class="main_screen">
+				<div class="text-container">
+					<h1>Пирожные вашего детства в новой кондитерской <span class="highlight">“Эклер”</span> со скидкой <span class="highlight">20 %</span></h1>
+					<p>Закажите и убедитесь, что наши пирожные как раньше.</p>
+					<a href="#cakes" class=" btn btn-main-screen">Наши пирожные</a>
+				</div>
+				<div class="img-container"><img src="images/ekler.jpg"></div>
+			</section>
+			<section class="section-campaign">
+				<h2>Месяц специальных цен</h2>
+				<div class="campaign-info">
+				<p>Мы только что открылись и в честь этого предлагаем всем жителям и гостям Йыхви возможность заказать наши пирожные со скидкой 20 %.</p> 
+				<p>Предложение действует 1 месяц  и доступно только при заказе на сайте.</p></div>
+				<svg class="label-off" width="272" height="260" viewBox="0 0 272 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  				<g filter="url(#filter0_d_121_25)">
+    			<path d="M24.3983 39.882L116.306 0L219.829 34.4147V39.882L250 124.113L219.829 212.346L129.049 246L29.9993 208.319L0 124.113L24.3983 39.882Z" fill="#542213"/>
+  				</g>
+
+  				<!-- Вставка текста в SVG -->
+  				<text x="25" y="150" font-family="Arial" font-size="88" fill="white">-20%</text>
+
+  				<defs>
+    			<filter id="filter0_d_121_25" x="0" y="0" width="272" height="260" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      			<feOffset dx="15" dy="7"/>
+      			<feGaussianBlur stdDeviation="3.5"/>
+      			<feComposite in2="hardAlpha" operator="out"/>
+      			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      			<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_121_25"/>
+      			<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_121_25" result="shape"/>
+    			</filter>
+  				</defs>
+				</svg>
+				<div id="countdown-timer">Осталось: ...</div>
+				<a href="#cakes" class="btn btn-filled">Выбрать</a>
+			</section>
+			<section class="section-advantages">
+				<h2>Почему наши пирожные как в детстве?</h2>
+				<p>Мы делаем пирожные по старым рецептам и используем только натуральные ингредиенты: от сливочного масла до свежих яиц. Приятный запах свежеиспеченных эклеров, корзиночек и других десертов — это не просто воспоминания, а реальность, которую мы создали для вас.</p>
+				<div class="icons"><img src="images/icon1.png" alt="feature">
+				<img src="images/icon2.png" alt="feature">
+				<img src="images/icon3.png" alt="feature"></div>
+			</section>
+			<section id="cakes" class="section-menu">
+				<h2>Наши пирожные</h2>
+			<section class="card-right-img">
+				<div class="cake-description">
+				<h2>Эклер</h2>
+				<p>Нежные пирожные с тонким кремом, которые оставляют незабываемый вкус</p>
+				<div class="price-conteiner">
+				<p class="old-price">2-00</p>
+				<p class="price">1-60</p>
+				</div>
+			</div>
+			<div class="img-container">
+				<img src="images/ekler.jpg"></div>
+			</section>
+			<section class="card-left-img">
+				<div class="cake-description">
+				<h2>Картошка</h2>
+				<p>Шоколадный вкус с детства — нежный бисквит и глазурь, которые тают во рту</p>
+				<div class="price-conteiner-left">
+				<p class="old-price">2-00</p>
+				<p class="price">1-60</p>
+				</div>
+			</div>
+				<div class="img-container"><img src="images/kartoshka.jpg"></div>
+			</section>
+			<section class="card-right-img">
+				<div class="cake-description">
+				<h2>Корзиночка</h2>
+				<p>Хрустящая основа, нежный крем и чуть-чуть ванили — вкус, который мы помним с детства</p>
+				<div class="price-conteiner">
+				<p class="old-price">2-00</p>
+				<p class="price">1-60</p>
+				</div>
+			</div>
+			<div class="img-container">
+				<img src="images/korzinochka.png"></div>
+			</section>
+			<section class="card-left-img">
+				<div class="cake-description">
+				<h2>Трубочка</h2>
+				<p>Хрустящее тесто и воздушный крем, создаёт гармонию текстур, даря момент наслаждения и лёгкости.</p>
+				<div class="price-conteiner-left">
+				<p class="old-price">2-00</p>
+				<p class="price">1-60</p>
+				</div>
+			</div>
+				<div class="img-container"><img src="images/trubochka.jpg"></div>
+			</section>
+			<section class="card-right-img">
+				<div class="cake-description">
+				<h2>Ромовая баба</h2>
+				<p>Нежное тесто, пропитанное ромом, с лёгким кремом — вкус праздника и детской радости.</p>
+				<div class="price-conteiner">
+				<p class="old-price">2-00</p>
+				<p class="price">1-60</p>
+			</div>
+				</div>
+				<div class="img-container"><img src="images/romovaja_baba.jpg"></div>
+			</section>
+			<section class="card-left-img">
+				<div class="cake-description">
+				<h2>Прага</h2>
+				<p>Известное с детства пирожное с шоколадным кремом и тонким бисквитом.</p>
+				<div class="price-conteiner-left">
+				<p class="old-price">3-00</p>
+				<p class="price">2-40</p>
+				</div>
+			</div>
+				<div class="img-container"><img src="images/praga_3.jpg"></div>
+			</section>
+			<section class="card-right-img">
+				<div class="cake-description">
+				<h2>Птичье молоко</h2>
+				<p>Воздушный крем и бисквит, как в детстве — лёгкое и нежное, как облако.</p>
+				<div class="price-conteiner">
+				<p class="old-price">3-00</p>
+				<p class="price">2-40</p>
+				</div>
+			</div>
+				<div class="img-container"><img src="images/ptichje_moloko.jpg"></div>
+			</section>
+			<div class="btn-menu"><a href="order_form.html" class="btn btn-filled btn-action">Заказать</a></div>
+		</section>
+			<section id="we" class="section-about-us">
+				<div class="description">
+				<h2>О нас</h2>
+				<p>Мы так давно искали пирожные, которые были бы похожи на те, что продавались в нашем детстве, что решили просто начать их делать сами. Готовим по традиционным рецептам из натуральных продуктов.</p>
+				</div>
+				<div class="team">
+				<h2>Наша команда</h2>
+				<div class="conteiner-persons">
+				<div class="person-right">
+				<div class="img-person"><img src="images/team_1.jpg"></div>
+				<h3>Валерия</h3>
+				<p>Придумала нашу кондитерскую.</p>
+				</div>
+				<div class="person-left">
+				<div class="img-person"><img src="images/team_2.jpg"></div>
+				<h3>Мария</h3>
+				<p>Создает наши пирожные.</p>
+				</div>
+				</div>
+				</div>
+			</section>
+			<section class="section-action">
+				<div class="logo"><img src="images/logo/logo_medium.png" alt="Логотип Кондитерская Эклер"></div>
+				<h2>Заказать со скидкой 20 %</h2>
+				<div class="btn-center"><a href="order_form.html" class="btn btn-filled btn-action">Сделать заказ</a></div>
+			</section>
+			<section class="section-reviews">
+				<div class="about-us">
+				<h2>О нас говорят</h2>
+				<article>
+					<h3>Анастасия</h3>
+					<p>Наконец-то я нашла те самые трубочки, которые я покупала , когда училась в универе </p>
+				</article>
+				<article>
+					<h3>Дмитрий</h3>
+					<p>Понравились эклеры. Выбрали традиционые с масляным кремом - все как раньше.</p>
+				</article>
+				</div>
+				<div class="add-review">
+				<h2>Расскажите о нас</h2>
+				<p>Уже  пробовали наши пирожные? 
+					Поделитесь своими впечатлениями и получите от нас купон на скидку.</p>
+					<p>(*не забудьте оставить свой E-mail, чтобы мы могли отправить вам промокод)</p>
+					<form action="#" method="POST">
+						<div class="form-review">
+						<input type="text" name="name" value="" placeholder="Ваше имя" required>
+						<input type="email" name="email"  placeholder="Ваш E-mail" required>
+					</div>
+						<textarea name="message" rows="15" cols="45" placeholder="Напишите ваш отзыв"></textarea>
+						<button type="submit" class="btn btn-filled">Отправить</button>
+					</form>
+				</div>
+			</section>
+			<section class="section-location">
+				<h2>Где мы находимся</h2>
+				<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d604.540303323023!2d27.407421983099166!3d59.35927732726341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469465628c4b3e9f%3A0xff7047b6bd721be3!2sRakvere%20tn%2013%2C%20J%C3%B5hvi%2C%2041533%20Ida-Viru%20maakond!5e0!3m2!1sru!2see!4v1743340228603!5m2!1sru!2see" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+			</section>
+		</main>
+		<footer>
+			<div class="nav-links">
+				<a href="#we">О нас</a>
+				<a href="#cakes">Пирожные</a>
+			</div>
+			<div class="logo"><img src="images/logo/logo_medium.png" alt="Логотип Кондитерская Эклер"></div>
+			<div class="contact">
+				<p>Jõhvi Rakvere tn 13</p>
+				<p>+372555555</p>
+			</div>
+		</footer>
+	</div>
+	<script>
+		// Устанавливаем конечную дату акции (например, 30 дней от текущего момента)
+const endDate = new Date();
+endDate.setDate(endDate.getDate() + 30); // 30 дней от сегодняшнего дня
+
+// Функция для обновления счетчика
+function updateCountdown() {
+  const now = new Date();
+  const timeLeft = endDate - now;
+
+  // Проверяем, осталось ли время
+  if (timeLeft <= 0) {
+    document.getElementById('countdown-timer').innerHTML = "Акция завершена!";
+    clearInterval(timer); // Останавливаем таймер
+  } else {
+    const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24)); // Дни
+    const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); // Часы
+    const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60)); // Минуты
+    const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000); // Секунды
+
+    // Обновляем содержимое счетчика
+    document.getElementById('countdown-timer').innerHTML = 
+      `Осталось: ${days}д ${hours}ч ${minutes}м ${seconds}с`;
+  }
+}
+
+// Запускаем обновление каждую секунду
+const timer = setInterval(updateCountdown, 1000);
+
+// Вызываем функцию сразу для начальной установки
+updateCountdown();
+</script>
+</body>
+</html>
