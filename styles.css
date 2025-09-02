@@ -18,6 +18,9 @@ header{
 }
 
 .container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	min-height: 800px;
 	background: url('img/me.jpg') center/cover no-repeat;
 
@@ -30,6 +33,13 @@ header{
 
 .my_projects a{
 	color: #39bedc;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	min-height: 300px;
 }
 
 
