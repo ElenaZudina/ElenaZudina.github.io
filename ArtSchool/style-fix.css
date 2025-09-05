@@ -1,0 +1,164 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+.wrapper {
+	width: 1280px;
+	margin: auto;
+}
+
+header {
+	width: 1280px;
+	padding-bottom: 20px ;
+	border: 2px solid brown;
+}
+
+header div {
+	
+	text-align: center;
+	border: 2px solid orange;
+}
+
+.logo {
+	float: left;
+	width: 164px;
+	margin-left: 18px;
+	border: 2px solid red;
+}
+
+.menu {
+	display: inline-block;
+	width: 620px;
+	text-align: center;
+	margin-right: 140px;
+	margin-left: 140px;
+	border: 2px dotted blue;
+
+}
+
+.li-menu {
+	display: inline-block;
+	
+	text-align: center;
+	font-family: 'Arial';
+	font-size: 22px;
+	font-weight: bold;
+	margin-right: 62px;
+	margin-left: 0;
+
+}
+
+main {
+	padding: 18px;
+}
+
+.description {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 24px;
+	border: 1px solid green;
+}
+
+.logo-text {
+	font-family: cursive;
+}
+
+.text-description {
+	width: 781px;
+	font-size: 24px;
+	margin: auto;
+}
+
+main h2 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+main section {
+	overflow: auto;
+	width: 1238px;
+	margin-bottom: 24px;
+	border: 1px solid blue;
+}
+
+main article {
+	float: left;
+	width: 370px;
+	height: 341px;
+	font-size: 22px;
+	padding: 9px;
+	margin-right: 20px; 
+	margin-bottom: 20px;
+	border: 2px solid #D9D9D9;
+}
+
+article h3 {
+	text-align: left;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: auto;
+}
+
+.text {
+	height: 200px;
+	border: 1px solid green;
+}
+
+.detailed_button {
+	display: block;
+	width: 136px;
+	height: 30px;
+	text-align: center;
+	font-size: 24px;
+	border: 2px solid #D9D9D9;
+	border-radius: 10px 10px;
+	padding: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+}
+
+.gallery {
+	width: 400px;
+	height: 221px;
+	float: left;
+	text-align: center;
+	margin-right: 10px;
+	border: 1px solid red;
+
+}
+
+.paint {
+	width: 200px;
+	height: 158px;
+	text-align: center;
+	margin: auto;
+
+}
+
+section img {
+	width: 200px;
+}
+
+footer {
+	width: 1238px;
+	margin: auto;
+	border: 1px solid blue;
+}
+
+footer p {
+		display: inline-block;
+		width: 400px;
+		text-align: center;
+		font-size: 24px;
+		font-weight: bold;
+}
+
