@@ -240,7 +240,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
                 const json = JSON.stringify(Object.fromEntries(formData.entries()));
 
-                postData('http://localhost:3000/request', json)
+                postData('http://localhost:3000/requests', json)
                 .then(data => {
                     console.log(data);
                     showThanksModal(message.success);
@@ -273,7 +273,7 @@ window.addEventListener('DOMContentLoaded', function () {
                     prevModalDialog.classList.add('show');
                     prevModalDialog.classList.remove('hide');
                     closeModal();
-                }, 4000);
+                }, 50000);
         }
 
         //Slider
