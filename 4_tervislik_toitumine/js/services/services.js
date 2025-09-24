@@ -4,7 +4,8 @@ const postData = async (url, data) => {
         headers: {
             'Content-Type': 'application/json'
         },
-        body: data
+        //body: data
+        body: JSON.stringify(data)
     });
 
     return await res.json();
