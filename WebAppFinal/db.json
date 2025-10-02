@@ -1,0 +1,112 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "img": "img/services/painting.jpg",
+      "altimg": "Painting",
+      "title": "Wall painting",
+      "descr": "Professional wall and ceiling painting with high-quality materials.",
+      "price": 200,
+      "type": "cosmetic"
+    },
+    {
+      "id": 2,
+      "img": "img/services/flooring.jpg",
+      "altimg": "Flooring",
+      "title": "Laminate flooring",
+      "descr": "Installation of modern laminate flooring for living rooms and bedrooms.",
+      "price": 350,
+      "type": "cosmetic"
+    },
+    {
+      "id": 3,
+      "img": "img/services/doors.jpg",
+      "altimg": "Doors",
+      "title": "Interior doors replacement",
+      "descr": "Quick and stylish installation of new interior doors.",
+      "price": 180,
+      "type": "cosmetic"
+    },
+    {
+      "id": 4,
+      "img": "img/services/plumbing.jpg",
+      "altimg": "Plumbing",
+      "title": "Plumbing replacement",
+      "descr": "Full replacement of old pipes, faucets, and sanitary systems.",
+      "price": 800,
+      "type": "capital"
+    },
+    {
+      "id": 5,
+      "img": "img/services/electrics.jpg",
+      "altimg": "Electrics",
+      "title": "Electrical rewiring",
+      "descr": "Modern safe electrical installation, sockets, and lighting.",
+      "price": 950,
+      "type": "capital"
+    },
+    {
+      "id": 6,
+      "img": "img/services/walls.jpg",
+      "altimg": "Walls",
+      "title": "Wall demolition and rebuilding",
+      "descr": "Replanning apartments with new partitions and plastering.",
+      "price": 1200,
+      "type": "capital"
+    },
+    {
+      "id": 7,
+      "img": "img/services/design.jpg",
+      "altimg": "Design",
+      "title": "Full interior design project",
+      "descr": "3D visualization and custom solutions for your apartment.",
+      "price": 1500,
+      "type": "designer"
+    },
+    {
+      "id": 8,
+      "img": "img/services/furniture.jpg",
+      "altimg": "Furniture",
+      "title": "Custom furniture",
+      "descr": "Designer wardrobes, kitchens, and living room furniture.",
+      "price": 2500,
+      "type": "designer"
+    },
+    {
+      "id": 9,
+      "img": "img/services/finishes.jpg",
+      "altimg": "Finishes",
+      "title": "Premium finishes",
+      "descr": "Exclusive wallpapers, Italian tiles, and parquet flooring.",
+      "price": 2000,
+      "type": "designer"
+    },
+    {
+      "id": 10,
+      "img": "img/services/full-package.jpg",
+      "altimg": "Turnkey",
+      "title": "Full turnkey package",
+      "descr": "From demolition to furniture installation — everything included.",
+      "price": 5000,
+      "type": "turnkey"
+    },
+    {
+      "id": 11,
+      "img": "img/services/supervision.jpg",
+      "altimg": "Supervision",
+      "title": "Project supervision",
+      "descr": "Our managers control all works and timelines.",
+      "price": 800,
+      "type": "turnkey"
+    },
+    {
+      "id": 12,
+      "img": "img/services/cleanup.jpg",
+      "altimg": "Cleanup",
+      "title": "Post-renovation cleanup",
+      "descr": "Professional cleaning so you can move in immediately.",
+      "price": 400,
+      "type": "turnkey"
+    }
+  ]
+}
