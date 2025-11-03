@@ -18,7 +18,7 @@ app.use(session({
     secret: 'secret-key',
     resave: false,
     saveUninitialized: true,
-    cookie: { secure: false } // В разработк можно использовать http
+    cookie: { secure: false } // В разработе можно использовать http
 }));
 
 //Тестовый администратор

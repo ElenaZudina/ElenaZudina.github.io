@@ -79,7 +79,7 @@ const isAuthenticated = (req, res, next) => {
 };
 
 //Маршрут для входа
-app.post('/login', (req, res) => {
+app.post('http://localhost:3001/login', (req, res) => {
     const { username, password } = req.body;
     if (username === adminUser.username && password === adminUser.password) {
         req.session.user = adminUser;
